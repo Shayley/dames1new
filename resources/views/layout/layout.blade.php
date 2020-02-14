@@ -53,8 +53,6 @@
         </ol>
     </nav>
 
-    <img src="{{asset('img/vvh.png')}}" style="max-width: 50px; margin-left: 1.5%; margin-top: -5.5%;">
-
     @yield('content')
 
     <script src="{{asset('js/nav.js')}}"></script>
