@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #ede7f6;
+    background: #000000;
     margin: 0;
 }
 
@@ -19,6 +19,7 @@ a {
 
 a:hover {
     color: white;
+    text-decoration: none;
 }
 
 .menu {
@@ -148,7 +149,7 @@ a:hover {
         position: absolute;
         width: 26px;
         height: 4px;
-        background-color: #9575cd;
+        background-color: #efed22;
         top: 22px;
         left: 15px;
         -webkit-transition: 0.15s ease all;
@@ -231,4 +232,61 @@ a:hover {
         -webkit-transition-delay: 0s;
         transition-delay: 0s;
     }
+}
+
+#container {
+    width: 30%;
+}
+
+#bg {
+    background-image: url("../assets/img/dames.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+#color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    margin-top: 3.9%;
+    background-color: rgba(12, 14, 13, 0.89);
+    opacity: 0.6;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.sitetitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-left: 110px;
+    font-family: Arial Narrow, sans-serif;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.button:hover {
+    border: 1px solid lightblue;
 }
