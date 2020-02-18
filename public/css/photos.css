@@ -1,0 +1,32 @@
+img {
+    width: 15%;
+    margin: 0.5%;
+    vertical-align: middle;
+    transition: all 2s, transform 0.5s, box-shadow 0.5s;
+}
+img:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+}
+
+img:focus {
+    width: 35%;
+    transform: none;
+}
+@media only screen and (max-width: 866px) {
+    img {
+        width: 40%;
+    }
+    img:focus {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 541px) {
+    img {
+        width: 100%;
+        margin: 20px 0;
+    }
+    img:focus {
+        width: 100%;
+    }
+}
