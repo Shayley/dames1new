@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Dames 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -12,8 +13,8 @@
     <nav class="menu">
         <span></span>
         <ol>
-            <li class="menu-item"><a href="#0">Home</a></li>
-            <li class="menu-item"><a href="#0">Over ons</a></li>
+            <li class="menu-item"><a href="/">Home</a></li>
+            <li class="menu-item"><a href="/overons">Over ons</a></li>
             <li class="menu-item">
                 <a href="#0">Team
                     <svg version="1.1" class="plus-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,9 +28,9 @@
                     </svg>
                 </a>
                 <ol class="sub-menu">
-                    <li class="sub-menu-item"><a href="#0">Spelers</a></li>
-                    <li class="sub-menu-item"><a href="#0">Wedstrijden</a></li>
-                    <li class="sub-menu-item"><a href="#0">Stand</a></li>
+                    <li class="sub-menu-item"><a href="/spelers">Spelers</a></li>
+                    <li class="sub-menu-item"><a href="/wedstrijden">Wedstrijden</a></li>
+                    <li class="sub-menu-item"><a href="/stand">Stand</a></li>
                 </ol>
             </li>
             <li class="menu-item">
@@ -45,11 +46,12 @@
                     </svg>
                 </a>
                 <ol class="sub-menu">
-                    <li class="sub-menu-item"><a href="#0">Verdere info</a></li>
-                    <li class="sub-menu-item"><a href="#0">Bij ons voetballen</a></li>
+                    <li class="sub-menu-item"><a href="/overig">Verdere info</a></li>
+                    <li class="sub-menu-item"><a href="/bijonsvoetballen">Bij ons voetballen</a>
+                    <li class="sub-menu-item"><a href="/fotos">Fotos</a></li>
                 </ol>
             </li>
-            <li class="menu-item"><a href="#0">Contact</a></li>
+            <li class="menu-item"><a href="/contact">Contact</a></li>
         </ol>
     </nav>
 
