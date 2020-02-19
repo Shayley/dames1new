@@ -1221,6 +1221,16 @@ body.light .switch-wrap p span:nth-child(1):before {
 
 @media screen and (max-width: 600px) {
 
+    .copyrights {
+        margin-left: 13.5% !important;
+        font-size: 10px !important;
+        margin-top: -5%;
+        position: absolute;
+        color: #ffffff;
+        font-weight: 800;
+        text-shadow:0px 5px 10px #000000;
+    }
+
     h1 {
         margin-top: 30%;
         font-size: 15px !important;
