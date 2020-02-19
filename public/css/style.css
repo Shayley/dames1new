@@ -1737,3 +1737,12 @@ textarea {
     color: #000000;
     font-weight: bold;
 }
+
+.copyrights {
+    margin-left: 36.5%;
+    margin-top: -5%;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 800;
+    text-shadow:0px 5px 10px #000000;
+}
