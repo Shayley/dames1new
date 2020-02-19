@@ -1,27 +1,45 @@
-let tl = new TimelineLite(),
-    links = document.querySelectorAll('.menu-item'),
-    pIcon = document.querySelectorAll('.plus-icon');
-tl.staggerFromTo(links, 0.4, { autoAlpha: 0 }, { autoAlpha: 1, ease: Sine.easeInOut }, 0.2);
 
-links[2].addEventListener('mouseenter', function () {
-    TweenMax.to(pIcon[0], 0.15, { rotation: -45, ease: Power1.easeIn });
-    TweenMax.to('#lineGroup_1', 0.20, { attr: { 'stroke-dashoffset': '8', 'stroke-dasharray': '8' }, ease: Power1.easeIn });
-});
-links[2].addEventListener('mouseleave', function () {
-    TweenMax.to(pIcon[0], 0.15, { rotation: 0, ease: Power1.easeIn });
-    TweenMax.to('#lineGroup_1', 0.20, { attr: { 'stroke-dashoffset': '0', 'stroke-dasharray': '0' }, ease: Power1.easeIn });
-});
-links[3].addEventListener('mouseenter', function () {
-    TweenMax.to(pIcon[1], 0.15, { rotation: -45, ease: Power1.easeIn });
-    TweenMax.to('#lineGroup_2', 0.20, { attr: { 'stroke-dashoffset': '8', 'stroke-dasharray': '8' }, ease: Power1.easeIn });
-});
-links[3].addEventListener('mouseleave', function () {
-    TweenMax.to(pIcon[1], 0.15, { rotation: 0, ease: Power1.easeIn });
-    TweenMax.to('#lineGroup_2', 0.20, { attr: { 'stroke-dashoffset': '0', 'stroke-dasharray': '0' }, ease: Power1.easeIn });
-});
 
-const menuToggle = document.querySelector(".menu span");
-const menu = document.querySelector('.menu');
-menuToggle.addEventListener('click', function () {
-    menu.classList.toggle('open');
-});
+/* Please ❤ this if you like it! */
+
+
+(function($) { "use strict";
+
+    //Navigation
+
+    var app = function () {
+        var body = undefined;
+        var menu = undefined;
+        var menuItems = undefined;
+        var init = function init() {
+            body = document.querySelector('body');
+            menu = document.querySelector('.menu-icon');
+            menuItems = document.querySelectorAll('.nav__list-item');
+            applyListeners();
+        };
+        var applyListeners = function applyListeners() {
+            menu.addEventListener('click', function () {
+                return toggleClass(body, 'nav-active');
+            });
+        };
+        var toggleClass = function toggleClass(element, stringClass) {
+            if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+        };
+        init();
+    }();
+
+
+    //Switch light/dark
+
+    $("#switch").on('click', function () {
+        if ($("body").hasClass("light")) {
+            $("body").removeClass("light");
+            $("#switch").removeClass("switched");
+        }
+        else {
+            $("body").addClass("light");
+            $("#switch").addClass("switched");
+        }
+    });
+
+})(jQuery);

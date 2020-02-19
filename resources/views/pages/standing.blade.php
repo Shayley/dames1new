@@ -11,8 +11,9 @@
 
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
+        <h1>Stand</h1>
+
         <div class="ptable">
-            <h1 class="headin">Stand</h1>
             <table>
                 <tr class="col">
                     <th>#</th>

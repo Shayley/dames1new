@@ -2,16 +2,12 @@
 
 @section('content')
 
-    <div id="container">
-
-        <div id="bg">
-            <div id="color-overlay"></div>
+    <div class="section full-height over-hide">
+        <div class="switch-wrap">
+            <h2>vv Heerde</h2>
+            <h1>dames 1</h1>
+            <p></p>
         </div>
-
-        <div class="sitetitle">
-            <h1>vv Heerde Dames 1</h1>
-        </div>
-
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

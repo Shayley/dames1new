@@ -1,63 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
     <head>
         <title>Dames 1</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet" />
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
         <link href="{{asset('css/style.css')}}" rel="stylesheet">
     </head>
     <body>
 
-    <nav class="menu">
-        <span></span>
-        <ol>
-            <li class="menu-item"><a href="/">Home</a></li>
-            <li class="menu-item"><a href="/overons">Over ons</a></li>
-            <li class="menu-item">
-                <a href="#0">Team
-                    <svg version="1.1" class="plus-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                         viewBox="0 0 18 18">
-                        <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="9" x2="17" y2="9"/>
-                        <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="9" x2="9" y2="1"/>
-                        <g id="lineGroup_1">
-                            <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="1" y1="9" x2="8" y2="9"/>
-                            <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="17" x2="9" y2="9" />
-                        </g>
-                    </svg>
-                </a>
-                <ol class="sub-menu">
-                    <li class="sub-menu-item"><a href="/spelers">Spelers</a></li>
-                    <li class="sub-menu-item"><a href="/wedstrijden">Wedstrijden</a></li>
-                    <li class="sub-menu-item"><a href="/stand">Stand</a></li>
-                </ol>
-            </li>
-            <li class="menu-item">
-                <a href="#0">Overig
-                    <svg version="1.1" class="plus-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                         viewBox="0 0 18 18">
-                        <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="9" x2="17" y2="9"/>
-                        <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="9" x2="9" y2="1"/>
-                        <g id="lineGroup_2">
-                            <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="1" y1="9" x2="8" y2="9"/>
-                            <line fill="none" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="17" x2="9" y2="9"/>
-                        </g>
-                    </svg>
-                </a>
-                <ol class="sub-menu">
-                    <li class="sub-menu-item"><a href="/overig">Verdere info</a></li>
-                    <li class="sub-menu-item"><a href="/bijonsvoetballen">Bij ons voetballen</a>
-                    <li class="sub-menu-item"><a href="/fotos">Fotos</a></li>
-                </ol>
-            </li>
-            <li class="menu-item"><a href="/contact">Contact</a></li>
-        </ol>
-    </nav>
+    <header class="cd-header">
+        <div class="header-wrapper">
+            <div class="logo-wrap">
+                <a href="#" class="hover-target"><span>Dames</span>Heerde</a>
+            </div>
+            <div class="nav-but-wrap">
+                <div class="menu-icon hover-target">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <div class="nav">
+        <div class="nav__content">
+            <ul class="nav__list">
+                <li class="nav__list-item active-nav"><a href="/" class="hover-target">Home</a></li>
+                <li class="nav__list-item"><a href="/overons" class="hover-target">Over ons</a></li>
+                <li class="nav__list-item"><a href="/spelers" class="hover-target">Het team</a></li>
+                <li class="nav__list-item"><a href="/wedstrijden" class="hover-target">Wedstrijden</a></li>
+                <li class="nav__list-item"><a href="/stand" class="hover-target">Stand</a></li>
+                <li class="nav__list-item"><a href="/bijonsvoetballen" class="hover-target">Bij ons voetballen</a></li>
+                <li class="nav__list-item"><a href="/fotos" class="hover-target">Fotos</a></li>
+                <li class="nav__list-item"><a href="/contact" class="hover-target">Contact</a></li>
+                <li class="nav__list-item"><a href="https://www.instagram.com/vvheerdevr1/" class="hover-target"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav__list-item"><a href="https://www.facebook.com/groups/vvheerdedames/" class="hover-target"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </div>
     @yield('content')
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="{{asset('js/nav.js')}}"></script>
+
 
     </body>
 </html>

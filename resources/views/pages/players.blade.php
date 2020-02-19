@@ -225,7 +225,6 @@
                     </a>
                 </div> <!--End portfolio item #4-->
 
-                <h1>Staff</h1>
                 <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
                     <a href="/dames1" title="none">
                         <div class="portfolio__project__preview">
