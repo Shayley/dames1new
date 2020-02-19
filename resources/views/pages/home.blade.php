@@ -4,7 +4,6 @@
 
     <div class="section full-height over-hide">
         <div class="switch-wrap">
-            <h2>vv Heerde</h2>
             <h1>dames 1</h1>
             <p></p>
         </div>
