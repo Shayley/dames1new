@@ -6,7 +6,7 @@
 
     <section class="wrapsections-about">
         <p>
-            Wij zijn de vv Heerder Dames 1. Wij voetballen op dit moment in de 4de klasse. In het verleden hebben wij in de 5de klasse gespeeld<br>
+            Wij zijn vv Heerde Dames 1. Wij voetballen op dit moment in de 4de klasse. In het verleden hebben wij in de 5de klasse gespeeld<br>
             en wij waren zeker toe aan een nieuwe uitdaging in de 4de klasse.<br>
             <br>
             Sinds het seizoen 2019/2020, hebben wij nieuwe speelsters erbij. De leeftijd is tussen de 14 en 35 jaar.<br>
