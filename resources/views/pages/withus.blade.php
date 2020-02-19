@@ -4,7 +4,7 @@
 
     <h1>Bij ons voetballen</h1>
 
-    <section class="wrapsections-about">
+    <section class="wrapsections-withus">
         <p>
            Ben jij erg enthousiast en wil jij graag je inzetten voor een team? Dan zoeken wij jou!<br>
             <br>

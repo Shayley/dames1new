@@ -16,14 +16,6 @@ th{
     color: #ffe221;
 }
 
-.headin{
-    text-align: center;
-    text-decoration: none;
-    color: #ffe221;
-    margin: 30px;
-    display: block;
-}
-
 .wpos{
     text-align: center;
 }
@@ -58,4 +50,11 @@ table .col{
 
 .pos:hover td{
     color: #000000;
+}
+
+@media screen and (max-width: 640px) {
+    table {
+        font-size: 10px;
+        width: 10%;
+    }
 }
